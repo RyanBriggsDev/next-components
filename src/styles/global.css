@@ -4,11 +4,19 @@
     box-sizing: border-box;
 }
 
+/* fonts */
+
+@font-face {
+    font-family: PoppinsReg;
+    src: url('../assets/Poppins/Poppins-Regular.ttf');
+}
+
 body {
     margin: 0;
     padding: 0;
     background-color: black;
     color: white;
+    font-family: PoppinsReg;
 }
 
 .layout {
