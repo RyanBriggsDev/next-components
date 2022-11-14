@@ -11,6 +11,16 @@
     src: url('../assets/Poppins/Poppins-Regular.ttf');
 }
 
+/* remove default styling */
+
+a, ul, li {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+/* layout */
+
 body {
     margin: 0;
     padding: 0;
@@ -38,3 +48,44 @@ body {
 .my-4 {
     margin: 4rem 0;
 }
+
+    /* layouts */
+
+    .grid-3-col {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .g-2 {
+        gap: 2rem;
+    }
+
+    .p-1_5 {
+        padding: 1.5rem;
+    }
+
+    .br {
+        border-radius: 5px;
+    }
+
+    /* display */
+    
+    .flex {
+        display: flex;
+    }
+
+    .flex-start-end {
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+
+    .flex-dir-col {
+        flex-direction: column;
+    }
+
+.dark-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+}
+

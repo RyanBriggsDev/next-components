@@ -1,5 +1,6 @@
 import '../styles/global.css'
 import '../styles/header.css'
+import '../styles/card.css'
 import Layout from '../components/Layout'
 
 function MyApp({ Component, pageProps }) {
