@@ -4,7 +4,7 @@ function NavbarPage() {
   return (
     <>
         <Header 
-            title='How to make a React Navbar'
+            title='Navbar Component in React/Next.js'
             subText={`Let's make a responsive navbar in React using state.`}
         />
     </>

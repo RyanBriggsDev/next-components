@@ -1,8 +1,14 @@
-
+import Header from "../../../components/Header"
 
 function FormPage() {
   return (
-    <div>Form</div>
+    <>
+      <Header 
+        title='Form Component in React/Next.js'
+        subText={`Let's make a form component to store data using react hooks.`}
+      />
+    </>
+
   )
 }
 

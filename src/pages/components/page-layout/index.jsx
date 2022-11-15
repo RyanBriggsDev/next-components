@@ -1,8 +1,13 @@
-import React from 'react'
+import Header from "../../../components/Header"
 
 function LayoutPage() {
   return (
-    <div>Layout</div>
+    <>
+        <Header 
+          title='Page Layout Component in React/Next.js'
+          subText={`Let's setup your App by adding a layout component to app.js.`}
+        />
+    </>
   )
 }
 
