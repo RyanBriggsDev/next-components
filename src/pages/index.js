@@ -10,28 +10,34 @@ export default function Home() {
         title='React/Next Component Library'
         subText='My Cheatsheet to components + documentation.'
       />
-      <section>
+      <section className="my-4">
           <h3>Commonly Used Components</h3>
-          <div className="grid-3-col g-2">
+          <div className="grid-2-col g-3 my-2">
             <Card 
               title='Navbar'
-              desc='A Standard Responsive Navbar'
+              desc='A standard responsive navbar'
               image={navbar.src}
-              linkTo='navbar'
+              linkTo='/components/navbar'
             />
             <Card 
-              // title=''
-              // desc=''
-              // image={}
-              // linkTo=''
+              title='Card'
+              desc={`Literally the one you're looking at`}
+              linkTo='/components/card'
             />
             <Card 
-              // title=''
-              // desc=''
-              // image={}
-              // linkTo=''
+              title='Form'
+              desc='Form component that captures user inputted data'
+              linkTo='components/form'
+            />
+            <Card 
+              title='Form'
+              desc='Form component that captures user inputted data'
+              linkTo='components/form'
             />
           </div>
+      </section>
+      <section className="my-4">
+
       </section>
     </div>
   )

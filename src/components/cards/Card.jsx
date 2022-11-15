@@ -13,7 +13,7 @@ function Card(props) {
             style={{backgroundImage: `url(${props.image})`}}
         >
             <div className="dark-overlay p-1_5 br2 flex flex-start-end flex-dir-col">
-                <h4>{props.title}</h4>
+                <h4 className="font-1_5">{props.title}</h4>
                 <p>{props.desc}</p>
             </div>
         </div>
