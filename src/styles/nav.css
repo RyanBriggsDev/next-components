@@ -108,5 +108,7 @@ nav .nav-right #show {
 }
 
 @media screen and (max-width: 38rem) {
-
+    nav .nav-right ul > * {
+        border-radius: 0;
+    }
 }
