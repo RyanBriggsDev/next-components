@@ -14,7 +14,7 @@ function Nav() {
           <li onClick={() => router.push('/')}>Home</li>
         </div>
         <div className="nav-right">
-          <div className="hamburger" onClick={() => setNavToggle(!navToggle)}>
+        <div className={`hamburger ${navToggle === false ? '' : 'open'}`} onClick={(() => setNavToggle(!navToggle))}>
             <div className="burger-line"></div>
             <div className="burger-line"></div>
             <div className="burger-line"></div>

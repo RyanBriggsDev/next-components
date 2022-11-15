@@ -46,6 +46,8 @@ nav .nav-right ul {
 nav .nav-right ul > * {
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
+    width: 100%;
+    text-align: center;
 }
 
 nav .nav-right ul > :hover {
@@ -63,6 +65,7 @@ nav .nav-right ul > :hover {
     width: 2rem;
     height: 2px;
     background-color: white;
+    transition: all .2s ease-in-out;
 }
 
 nav .nav-right #show {
@@ -76,6 +79,24 @@ nav .nav-right #show {
     flex-direction: column;
     align-items: center;
 }
+
+/* animation */
+
+.hamburger.open .burger-line:nth-child(2) {
+    transform: translateX(-25px);    
+    background: transparent;
+    box-shadow: none;
+}
+
+.hamburger.open .burger-line:nth-child(1) {
+    transform: rotate(-45deg) translate(-15px, 0px)
+}
+
+.hamburger.open .burger-line:nth-child(3) {
+    transform: rotate(45deg)  translate(-11px, 0px)
+}
+
+/* media queries */
 
 @media screen and (min-width: 38rem) {
     nav .nav-right ul {
