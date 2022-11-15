@@ -1,0 +1,47 @@
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0
+}
+
+nav .nav {
+    display: flex;
+}
+
+nav .nav-left, .nav-right {
+    width: 50%;
+}
+
+nav .nav-left {
+    text-align: start;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+nav .nav-left > * {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+nav .nav-left > *:hover {
+    cursor: pointer;
+    background-color: rgb(40, 40, 40);
+}
+
+nav .nav-right {
+    display: flex;
+    justify-content: end;
+}
+
+nav .nav-right > * {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+nav .nav-right > *:hover {
+    cursor: pointer;
+    background-color: rgb(40, 40, 40);
+}
