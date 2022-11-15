@@ -12,8 +12,8 @@ export default function Home() {
       />
       <section className="my-4">
           <h3>Commonly Used Components</h3>
-          <div className="grid-2-col g-3 my-2">
-            <Card 
+          <div className="grid-2-col g-2 my-2">
+            <Card
               title='Navbar'
               desc='A standard responsive navbar'
               image={navbar.src}
@@ -24,15 +24,15 @@ export default function Home() {
               desc={`Literally the one you're looking at`}
               linkTo='/components/card'
             />
-            <Card 
+            <Card
               title='Form'
               desc='Form component that captures user inputted data'
               linkTo='components/form'
             />
-            <Card 
-              title='Form'
-              desc='Form component that captures user inputted data'
-              linkTo='components/form'
+            <Card
+              title='Page Layout'
+              desc='Easy page layout using CSS flexbox'
+              linkTo='components/page-layout'
             />
           </div>
       </section>
