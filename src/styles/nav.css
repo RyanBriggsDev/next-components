@@ -10,14 +10,15 @@ nav .nav {
     display: flex;
 }
 
+/* nav left */
+
 nav .nav-left, .nav-right {
     width: 50%;
 }
 
 nav .nav-left {
     display: flex;
-    text-align: flex-start;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -31,17 +32,60 @@ nav .nav-left > *:hover {
     background-color: rgb(40, 40, 40);
 }
 
+/* nav right */
+
 nav .nav-right {
     display: flex;
     justify-content: flex-end;
 }
 
-nav .nav-right > * {
+nav .nav-right ul {
+    display: none;
+}
+
+nav .nav-right ul > * {
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
 }
 
-nav .nav-right > *:hover {
+nav .nav-right ul > :hover {
     cursor: pointer;
     background-color: rgb(40, 40, 40);
+}
+
+/* hamburger */
+
+.hamburger > * {
+    margin: 0.5rem 0;
+}
+
+.burger-line {
+    width: 2rem;
+    height: 2px;
+    background-color: white;
+}
+
+nav .nav-right #show {
+    background-color: black;
+    display: flex;
+    position: absolute;
+    left: 0px;
+    top: 3rem;
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 38rem) {
+    nav .nav-right ul {
+        display: flex;
+    }
+    .hamburger {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 38rem) {
+
 }
