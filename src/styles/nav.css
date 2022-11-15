@@ -15,9 +15,9 @@ nav .nav-left, .nav-right {
 }
 
 nav .nav-left {
-    text-align: start;
     display: flex;
-    justify-content: start;
+    text-align: flex-start;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -33,7 +33,7 @@ nav .nav-left > *:hover {
 
 nav .nav-right {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 nav .nav-right > * {
