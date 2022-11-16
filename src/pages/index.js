@@ -36,9 +36,6 @@ export default function Home() {
             />
           </div>
       </section>
-      <section className="my-4">
-
-      </section>
     </div>
   )
 }
