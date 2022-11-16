@@ -1,8 +1,8 @@
 import Header from "../../../components/Header"
 import Steps from "../../../components/Steps"
 
-import one from '../../../assets/img/pages/navPage/One.png'
-import two from '../../../assets/img/pages/navPage/Two.png'
+import one from '../../../assets/img/pages/navPage/one.png'
+import two from '../../../assets/img/pages/navPage/two.png'
 import three from '../../../assets/img/pages/navPage/three.png'
 import four from '../../../assets/img/pages/navPage/four.png'
 import five from '../../../assets/img/pages/navPage/five.png'
