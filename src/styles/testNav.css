@@ -11,4 +11,23 @@ nav .right, .left {
 
 nav .right ul > *, .left > * {
     display: inline-block;
+    
+}
+
+nav .right ul > *, .left > * {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    background-color: orange;
+}
+
+nav .right {
+    display: flex;
+}
+
+nav .right ul {
+    margin-left: auto;
+}
+
+nav .right ul > *:hover, .left > *:hover {
+    background-color: red;
 }
