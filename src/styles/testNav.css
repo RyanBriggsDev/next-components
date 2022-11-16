@@ -11,7 +11,7 @@ nav .right, .left {
 
 nav .right ul > *, .left > * {
     display: inline-block;
-    
+
 }
 
 nav .right ul > *, .left > * {
@@ -30,4 +30,27 @@ nav .right ul {
 
 nav .right ul > *:hover, .left > *:hover {
     background-color: red;
+}
+
+/* hamburger */
+
+.hamburger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    flex-direction: column;
+}
+
+.hamburger > * {
+    width: 2rem;
+    height: 2px;
+    background-color: white;
+    margin: 0.25rem 0;
+}
+
+/* media queries */
+
+@media screen and (max-width: 40rem) {
+    
 }
