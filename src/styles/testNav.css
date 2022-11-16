@@ -1,0 +1,14 @@
+nav {
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .right, .left {
+    width: 50%;
+}
+
+nav .right ul > *, .left > * {
+    display: inline-block;
+}
