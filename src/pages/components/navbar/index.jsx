@@ -7,6 +7,7 @@ import one from '../../../assets/img/pages/navPage/One.png'
 import two from '../../../assets/img/pages/navPage/Two.png'
 import three from '../../../assets/img/pages/navPage/three.png'
 import four from '../../../assets/img/pages/navPage/four.png'
+import five from '../../../assets/img/pages/navPage/five.png'
 
 
 function NavbarPage() {
@@ -41,6 +42,18 @@ function NavbarPage() {
             title="Make it pretty, please"
             img={four}
             desc={` So far we have 5 words, that's it. Let's make it pretty and make nav flex, and centre children using justify-content and align-items. Make left and right width 50%. Make the links inline-block and space everything out as you wish.`}
+            />
+            <Steps 
+              stepNo='5'
+              title="Hamburger Styling"
+              img={five}
+              desc={`Next up we need to style and position the hamburger. We'll first target div.hamburger and make it centre everything with flex. Then can can style the lines by giving them a fixed width and height. They need some vertical margin to space them out and a background color to be made visable.`}
+            />
+            <Steps 
+              stepNo='6'
+              title={`Toggle State & Conditional Classes`}
+              img={five}
+              desc={`Now we've got all the JSX elements we need we need to add some state to track if the hamburger menu should be open. Let's call this navToggle. The default value should be false (closed). Then we need an onClick prop that'll update the state to the opposite of the state. Our div.hamburger should also have a conditional class 'open' that applied if our navToggle state is true. We should also have a conditional id 'show' for the nav links ul.`}
             />
         </section>
     </>
