@@ -6,6 +6,8 @@ import TestNav from "../../../components/TestNav"
 import one from '../../../assets/img/pages/navPage/One.png'
 import two from '../../../assets/img/pages/navPage/Two.png'
 import three from '../../../assets/img/pages/navPage/three.png'
+import four from '../../../assets/img/pages/navPage/four.png'
+
 
 function NavbarPage() {
   return (
@@ -37,7 +39,8 @@ function NavbarPage() {
           <Steps 
             stepNo='4'
             title="Make it pretty, please"
-            desc={` So far we have 5 words, that's it. Let's make it pretty and make nav flex, and centre children using justify-content and align-items. Make left and right width 50%. Make the links inline-block and space everything out as you wish to make it pretty`}
+            img={four}
+            desc={` So far we have 5 words, that's it. Let's make it pretty and make nav flex, and centre children using justify-content and align-items. Make left and right width 50%. Make the links inline-block and space everything out as you wish.`}
             />
         </section>
     </>
