@@ -20,9 +20,9 @@ function Nav() {
             <div className="burger-line"></div>
           </div>
           <ul className="nav-links" id={navToggle ? 'show' : ''}>
-            <li>Small</li>
-            <li>Medium</li>
-            <li>Large</li>
+            <li>Small {navToggle ? 'Components' : ''}</li>
+            <li>Medium {navToggle ? 'Components' : ''}</li>
+            <li>Large {navToggle ? 'Components' : ''}</li>
           </ul>
         </div>
       </div>

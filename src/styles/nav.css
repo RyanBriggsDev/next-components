@@ -57,6 +57,10 @@ nav .nav-right ul > :hover {
 
 /* hamburger */
 
+.hamburger {
+    cursor: pointer;
+}
+
 .hamburger > * {
     margin: 0.5rem 0;
 }
@@ -65,7 +69,7 @@ nav .nav-right ul > :hover {
     width: 2rem;
     height: 2px;
     background-color: white;
-    transition: all .2s ease-in-out;
+    transition: all 300ms ease-in-out;
 }
 
 nav .nav-right #show {
@@ -83,17 +87,17 @@ nav .nav-right #show {
 /* animation */
 
 .hamburger.open .burger-line:nth-child(2) {
-    transform: translateX(-25px);    
+    transform: translateX(-400px) rotateZ(90deg);    
     background: transparent;
     box-shadow: none;
 }
 
 .hamburger.open .burger-line:nth-child(1) {
-    transform: rotate(-45deg) translate(-15px, 0px)
+    transform: rotate(-45deg) translate(-7.5px, 7.5px)
 }
 
 .hamburger.open .burger-line:nth-child(3) {
-    transform: rotate(45deg)  translate(-11px, 0px)
+    transform: rotate(45deg)  translate(-5px, -5px)
 }
 
 /* media queries */
