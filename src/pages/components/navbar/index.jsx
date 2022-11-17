@@ -7,6 +7,9 @@ function NavbarPage() {
         <Header 
             title='Responsive Navbar Component in React/Next.js'
             subText={`Let's make a responsive navbar in React using state.`}
+            link={'https://github.com/RyanBriggsDev/next-components/blob/main/src/components/Nav.jsx'}
+            linkText={'View GitHub Repo'}
+            hide={false}
         />
         <section className="my-4">
           <Steps 

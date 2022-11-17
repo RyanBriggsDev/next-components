@@ -4,8 +4,6 @@ import Image from 'next/image'
 
 function Steps(props) {
 
-  const codeArr = ['one', 'two', 'three']
-
   return (
     <div className="steps my-4">
         <h4>Step <span>{props.stepNo}</span></h4>
@@ -31,5 +29,6 @@ Steps.defaultProps = {
     title: 'title',
     image: defaultImg.src,
     desc: 'desc',
-    codeArr: ['one', 'two', 'three', 'four']
+    codeArr: ['one', 'two', 'three', 'four'],
+    link: 'https://github.com/RyanBriggsDev/next-components'
 }
