@@ -17,3 +17,11 @@
 .steps h4 > span {
     font-size: 1.5rem;
 }
+
+/* code section */
+
+.code-background {
+    background-color: teal;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+}
