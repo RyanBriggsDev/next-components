@@ -1,15 +1,6 @@
 import Header from "../../../components/Header"
 import Steps from "../../../components/Steps"
 
-import one from '../../../assets/img/pages/navPage/one.png'
-import two from '../../../assets/img/pages/navPage/two.png'
-import three from '../../../assets/img/pages/navPage/three.png'
-import four from '../../../assets/img/pages/navPage/four.png'
-import five from '../../../assets/img/pages/navPage/five.png'
-import six from '../../../assets/img/pages/navPage/six.png'
-import seven from '../../../assets/img/pages/navPage/seven.png'
-import eight from '../../../assets/img/pages/navPage/eight.png'
-
 function NavbarPage() {
   return (
     <>
@@ -63,18 +54,18 @@ function NavbarPage() {
             <Steps
               stepNo='7'
               title='Media Queries'
-              image={seven.src}
+              codeArr={[`@media screen and (max-width: 40rem) {`, `nav .right ul {`, `display: none;`, `}`, `nav .right #show {`, `background-color: black;`, `display: flex;`, `position: absolute;`, `left: 0px;`, `top: 3rem;`, `height: auto;`, `width: 100%;`, `flex-direction: column;`, `align-items: center;`, `}`, `}`]}
               desc={`Choose a max-width that's right for your navbar. I've chose 40rem for this tutorial but it'll depend of your navs content. Change the ul to display none within the media query. So that below your max-width they will not show by default. We can then target the #show id which will become active when we click our hamburger. We can set display flex, with a position of absolute, left 0 and top to be positioned underneath your nav. The width will be 100%, height auto and any other styling as you wish. We will need to set the hamburger div's display as default to none and within the media query as flex. You should now have a functional responsive navbar.`}
               alt='Image of code. Example of media queries.'
             />
             <Steps 
               stepNo='8'
               title='Hamburger Animation (style points)'
-              image={eight.src}
-              desc={`This is easier than it looks, and it gives off a really cool effect. You don't have to do it the same as mine, but here is how I do it. Target each burger line individually with the nth-child pseudo element. We can then add a transform property that'll rotate/move the elements as we wish when the burger is clicked. Just remember to add a transition too! (I use ease-in-out)`}
+              codeArr={[`.hamburger.open .burger-line:nth-child(1) {`, `transform: rotate(-45deg) translate(-7.5px, 7.5px)`, `}`, `.hamburger.open .burger-line:nth-child(2) {`, `transform: translateX(-400px) rotateZ(90deg);`, `background: transparent;`, `box-shadow: none;`, `}`, `.hamburger.open .burger-line:nth-child(3) {`, `transform: rotate(45deg) translate(-5px, -5px);`, `}`]}
+              desc={`This is easier than it looks, and it gives off a really cool effect. You don't have to do it the same as mine, but here is how I do it. Target each burger line individually with the nth-child pseudo element. We can then add a transform property that'll rotate/move the elements as we wish when the burger is clicked. Just remember to add a transition too! (I use ease-in-out).`}
               alt='Image of code. Making an animation for the hamburger menu opening/closing.'
             />
-            <p>{`And that's it. You'll now have a fully responsive and functional navbar component. If this helped you at all, or you have any improvements (I know they'll be plenty), shout at me on Twitter ${<a className="inline-link" href="https://twitter.com/RyanBriggsDev" target='_blank noreferrer'>@ryanbriggsdev</a>}.`}</p>
+            <p>And that's it. You'll now have a fully responsive and functional navbar component. If this helped you at all, or you have any improvements (I know they'll be plenty), shout at me on Twitter <a className="inline-link" href="https://twitter.com/RyanBriggsDev" target='_blank noreferrer'>@ryanbriggsdev</a>.</p>
         </section>
     </>
   )
