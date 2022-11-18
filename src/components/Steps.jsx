@@ -5,7 +5,7 @@ import Image from 'next/image'
 function Steps(props) {
 
   return (
-    <div className="steps my-4">
+    <div className="steps">
         <h4>Step <span>{props.stepNo}</span></h4>
         <h3>{props.title}</h3>
         <div className="code-container">
