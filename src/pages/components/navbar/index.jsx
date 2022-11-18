@@ -68,7 +68,10 @@ function NavbarPage() {
               desc={`This is easier than it looks, and it gives off a really cool effect. You don't have to do it the same as mine, but here is how I do it. Target each burger line individually with the nth-child pseudo element. We can then add a transform property that'll rotate/move the elements as we wish when the burger is clicked. Just remember to add a transition too! (I use ease-in-out).`}
               alt='Image of code. Making an animation for the hamburger menu opening/closing.'
             />
-            <p>{`And that's it. You'll now have a fully responsive and functional navbar component. If this helped you at all, or you have any improvements (I know they'll be plenty), shout at me on Twitter ${<a className="inline-link" href="https://twitter.com/RyanBriggsDev" target='_blank noreferrer'>@ryanbriggsdev</a>}`}.</p>
+            <div>
+              <p className="inline-block">{`And that's it. You'll now have a fully responsive and functional navbar component. If this helped you at all, or you have any improvements (I know they'll be plenty), shout at me on Twitter`}</p>
+              <a className="inline-link" href="https://twitter.com/RyanBriggsDev" target='_blank noreferrer'>@ryanbriggsdev</a>
+            </div>
         </section>
     </>
   )

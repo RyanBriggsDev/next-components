@@ -4,6 +4,7 @@
     padding: 2rem;
     border-radius: 0.5rem;
     box-shadow: 0 3px 10px rgba(255, 255, 255, 0.2);
+    margin: 4rem 0;
 }
 
 .steps > * {
@@ -24,4 +25,23 @@
     background-color: teal;
     padding: 1rem 2rem;
     border-radius: 0.5rem;
+}
+
+@media screen and (max-width: 40rem) {
+    .steps {
+        margin: 2rem 0;
+        padding: 0.6rem;
+    }
+    .steps > * {
+        margin: 0.2rem 0;
+    }
+    .steps h3 {
+        font-size: 1.3rem;
+    }
+    .steps h4 > span {
+        font-size: 1.2rem;
+    }
+    .code-background {
+        padding: 1rem;
+    }
 }
