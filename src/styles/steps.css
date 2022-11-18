@@ -30,7 +30,7 @@
 @media screen and (max-width: 40rem) {
     .steps {
         margin: 2rem 0;
-        padding: 1rem;
+        padding: 0.6rem;
     }
     .steps > * {
         margin: 0.2rem 0;
@@ -40,5 +40,8 @@
     }
     .steps h4 > span {
         font-size: 1.2rem;
+    }
+    .code-background {
+        padding: 1rem;
     }
 }
