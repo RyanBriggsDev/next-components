@@ -69,7 +69,7 @@ function NavbarPage() {
               alt='Image of code. Making an animation for the hamburger menu opening/closing.'
             />
             <div>
-              <p className="inline-block">And that's it. You'll now have a fully responsive and functional navbar component. If this helped you at all, or you have any improvements (I know they'll be plenty), shout at me on Twitter</p>
+              <p className="inline-block">{`And that's it. You'll now have a fully responsive and functional navbar component. If this helped you at all, or you have any improvements (I know they'll be plenty), shout at me on Twitter`}</p>
               <a className="inline-link" href="https://twitter.com/RyanBriggsDev" target='_blank noreferrer'>@ryanbriggsdev</a>
             </div>
         </section>
