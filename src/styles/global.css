@@ -118,8 +118,13 @@ body {
 
 /* text */
 
+.inline-block {
+    display: inline-block;
+}
+
 .inline-link {
     color: rgb(174, 198, 255);
+    display: inline-block;
 }
 
 .dark-overlay {
