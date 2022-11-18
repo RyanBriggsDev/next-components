@@ -1,9 +1,13 @@
 import Header from "../components/Header"
 import Card from "../components/cards/Card"
-
 import navbar from '../assets/img/navbar.png'
 
+import useSetTitle from '../hooks/useSetTitle'
+
 export default function Home() {
+
+  useSetTitle('Home')
+
   return (
     <div>
       <Header 
