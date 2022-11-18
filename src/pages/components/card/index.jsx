@@ -1,6 +1,10 @@
 import Header from "../../../components/Header"
+import useSetTitle from '../../../hooks/useSetTitle'
 
 function CardPage() {
+
+  useSetTitle('Card')
+
   return (
     <>
       <Header 

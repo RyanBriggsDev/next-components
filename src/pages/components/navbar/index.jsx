@@ -1,7 +1,11 @@
 import Header from "../../../components/Header"
 import Steps from "../../../components/Steps"
+import useSetTitle from '../../../hooks/useSetTitle'
 
 function NavbarPage() {
+
+  useSetTitle('Navbar')
+
   return (
     <>
         <Header 
