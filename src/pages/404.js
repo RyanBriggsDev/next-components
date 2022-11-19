@@ -9,6 +9,7 @@ function Custom404() {
             subText={"That's not a good thing."}
             link={'/'}
             linkText={"Go home, you're drunk."}
+            target={''}
         />
     </>
   )
