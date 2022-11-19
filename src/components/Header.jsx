@@ -14,5 +14,7 @@ export default Header
 
 Header.defaultProps = {
     title: 'Title',
-    subText: 'subText'
+    subText: 'subText',
+    link: '/',
+    linkText: 'linkText'
 }
