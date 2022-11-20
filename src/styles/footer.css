@@ -1,4 +1,9 @@
-footer {
+.footer {
     width: 100%;
     padding: 2rem 0;
+}
+
+.footer-section {
+    padding: 0.25em;
+    background-color: orangered;
 }

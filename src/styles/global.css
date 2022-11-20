@@ -112,6 +112,10 @@ body {
         display: flex;
     }
 
+    .block {
+        display: block;
+    }
+
     .flex-start-end {
         justify-content: flex-end;
         align-items: flex-start;
