@@ -8,7 +8,7 @@ function FooterSection(props) {
             <div className="footer-section-content">
                 <h3>{props.title}</h3>
                 {props.footerArr.map((link, index) => (
-                    <Link className="block" href={`/${link.toLowerCase()}`} key={index}>{link}</Link>
+                    <Link className="block footer-link" href={`/${link.toLowerCase()}`} key={index}>{link}</Link>
                 ))}
             </div>
         </div>

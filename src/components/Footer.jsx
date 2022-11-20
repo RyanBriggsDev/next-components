@@ -9,7 +9,7 @@ function Footer() {
         />
         <FooterSection
           title='Components' 
-          footerArr={['All Components', 'Navbar', 'Card', 'Form', 'Page Layout']}
+          footerArr={['All Components', 'Components/Navbar', 'Components/Card', 'Components/Form', 'Components/Page-Layout']}
         />
       </div>
     </footer>
