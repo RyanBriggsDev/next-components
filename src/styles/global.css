@@ -92,6 +92,10 @@ body {
         gap: 2rem;
     }
 
+    .g-1 {
+        gap: 1rem;
+    }
+
     .p-1_5 {
         padding: 1.5rem;
     }
@@ -150,15 +154,18 @@ body {
 
 /* media queries */
 
+@media screen and (max-width: 80rem) {
+    .grid-6-col {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 @media screen and (max-width: 55rem) {
     .grid-2-col {
         grid-template-columns: 1fr;
     }
     .grid-3-col {
         grid-template-columns: 1fr 1fr;
-    }
-    .grid-6-col {
-        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 

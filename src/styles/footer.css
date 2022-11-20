@@ -5,5 +5,6 @@
 
 .footer-section {
     padding: 0.25em;
-    background-color: orangered;
+    border-left: 1px solid rgba(245, 245, 245, 0.3);
+    padding-left: 1rem;
 }
