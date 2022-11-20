@@ -67,6 +67,11 @@ body {
         grid-template-columns: repeat(3, 1fr);
     }
 
+    .grid-6-col {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+
     .my-2 {
         margin: 2rem 0;
     }
@@ -148,10 +153,13 @@ body {
     .grid-3-col {
         grid-template-columns: 1fr 1fr;
     }
+    .grid-6-col {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 
 @media screen and (max-width: 40rem) {
-    .grid-3-col {
+    .grid-3-col, .grid-6-col {
         grid-template-columns: 1fr;
     }
     .content {

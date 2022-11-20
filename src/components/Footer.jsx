@@ -1,8 +1,12 @@
-
+import FooterSection from "./FooterSection"
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <footer>
+      <div className="content">
+        <FooterSection />
+      </div>
+    </footer>
   )
 }
 

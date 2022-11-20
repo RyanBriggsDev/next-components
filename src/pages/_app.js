@@ -4,6 +4,7 @@ import '../styles/card.css'
 import '../styles/nav.css'
 import '../styles/steps.css'
 import '../styles/button.css'
+import '../styles/footer.css'
 
 import Layout from '../components/Layout'
 
