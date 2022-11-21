@@ -12,6 +12,9 @@ function Footer() {
           footerArr={['All Components', 'Components/Navbar', 'Components/Card', 'Components/Form', 'Components/Page-Layout']}
         />
       </div>
+        <div className="pb-2">
+          © Ryan Briggs 2022
+        </div>
     </footer>
   )
 }
